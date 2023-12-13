@@ -123,7 +123,7 @@ class Hamburger() {
                 println("뒤로 가기를 선택하셨습니다")
                 break
             } else if (burgerNumber in (1..5)) {
-                println("${burgerNumber} ${burgerMenus[burgerNumber - 1].burgerName} ${burgerMenus[burgerNumber - 1].burgerPrice} ${burgerMenus[burgerNumber - 1].burgerContent} 을 선택했습니다. 맞습니까?")
+                println("${burgerNumber} ${burgerMenus[burgerNumber - 1].burgerName} ${burgerMenus[burgerNumber - 1].burgerPrice} ${burgerMenus[burgerNumber - 1].burgerContent} 위 메뉴를 장바구니에 추가하시겠습니까?")
                 println("네 , 아니오")
                 var answer = readln().toString()
                 if (answer == "네") {
@@ -171,7 +171,7 @@ class Ice() {
                 println("뒤로 가기를 선택하셨습니다")
                 break
             } else if (iceNumber in (1..5)) {
-                println("${iceNumber} ${iceMenus[iceNumber - 1].iceName} ${iceMenus[iceNumber - 1].icePrice} ${iceMenus[iceNumber - 1].iceContent} 을 선택했습니다. 맞습니까?")
+                println("${iceNumber} ${iceMenus[iceNumber - 1].iceName} ${iceMenus[iceNumber - 1].icePrice} ${iceMenus[iceNumber - 1].iceContent} 위 메뉴를 장바구니에 추가하시겠습니까?")
                 println("네 , 아니오")
                 var answer = readln().toString()
                 if (answer == "네") {
@@ -266,7 +266,7 @@ class Beer() {
                 println("뒤로 가기를 선택하셨습니다")
                 break
             } else if (beerNumer in (1..5)) {
-                println("${beerNumber} ${beerMenus[beerNumber - 1].beerName} ${beerMenus[beerNumber - 1].beerPrice} ${beerMenus[beerNumber - 1].beerContent} 을 선택했습니다. 맞습니까?")
+                println("${beerNumber} ${beerMenus[beerNumber - 1].beerName} ${beerMenus[beerNumber - 1].beerPrice} ${beerMenus[beerNumber - 1].beerContent} 위 메뉴를 장바구니에 추가하시겠습니까?")
                 println("네 , 아니오")
                 var answer = readln().toString()
                 if (answer == "네") {
